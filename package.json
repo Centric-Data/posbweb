@@ -1,0 +1,30 @@
+{
+  "name": "posbweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Centric-Data/posbweb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Centric-Data/posbweb/issues"
+  },
+  "homepage": "https://github.com/Centric-Data/posbweb#readme",
+  "devDependencies": {
+    "@snowpack/plugin-svelte": "^3.7.0",
+    "snowpack": "^3.8.8"
+  },
+  "dependencies": {
+    "@snowpack/plugin-sass": "^1.4.0",
+    "svelte": "^3.42.6"
+  }
+}
